@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <link rel='stylesheet' href='/stylesheets/styles.css' />
+
+  </head>
+  <body>
+<div class="container raised" style="background:url(http://materializecss.com/images/parallax1.jpg);">
+    <h2 id="greeting"><font color=#91092A><!-- Express --><pre>   </pre></h2>
+    <!-- <h2 id="greeting">Express <font color=#727272><%= title %></h2> -->
+
+</div>
+
+
+<div class="container below">
+  
+  <h3><font color=#91092A><%= title %></h3>
+  <!-- <form method="post" action ="/user/admin/newuser"> -->
+<form method="post" action ="/user/auth"> <!-- OMFG!!!!!!!!!!!!!!!! -->
+    <br><br>
+    <div class="group">      
+      <input type="text" required name="username">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Name</label>
+    </div>
+      
+    <div class="group">      
+      <input type="text" required name="email">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Email</label>
+    </div>
+
+    <div class="group">      
+      <input type="password" required name="password">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Password</label>
+      <!-- <button>Add</button> -->
+    </div>
+    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
+  <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+  <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+
+  <section>
+    <div class="button raised" onclick="javascript: document.forms[0].submit();"> <!-- forcing button to react -->
+      <div class="center" fit>SUBMIT</div>
+      <paper-ripple fit></paper-ripple>
+    </div>
+
+
+  </section>
+
+    
+  </form>
+      
+  <p class="footer">
+    Copyright © P. Hozier 2015.
+  </p>
+
+  
+</div>
+
+
+
+    <!-- <h1 id = "greeting"><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+  </body>
+</html>
