@@ -1,6 +1,6 @@
 
 Readme.md
-![Login page of the express application](https://www.dropbox.com/s/1omy8op09yt5ayk/Screenshot%202015-04-21%2007.32.20.png?dl=0)
+![Login page of the express application](https://www.google.com/images/srpr/logo11w.png)
 
 Thoughts on my implementation<br>
 I found the workshop pretty alright. Beyond extending the user.js file, I was able to
