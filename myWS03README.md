@@ -1,7 +1,6 @@
 
-Readme.md
-![Login page of the express application](https://www.google.com/images/srpr/logo11w.png)
-
+Readme.md<br>
+[Login page of the express application](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-21%2007.32.20.png?_subject_uid=275550185&w=AAD31pDDqc_AYjzauy8c3brJ9q-4rWVP3WNmEMo67_GBkg)
 Thoughts on my implementation<br>
 I found the workshop pretty alright. Beyond extending the user.js file, I was able to
 navigate around the express framework files. The experience was a bit more fun in terms of ws
